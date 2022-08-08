@@ -1,0 +1,19 @@
+.repo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #18311a;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(29, 235, 34, .3);
+    color: #18311a;
+
+    &__name{
+        width: 200px;
+    }
+
+    &__info{
+        width: 100px;
+    }
+}

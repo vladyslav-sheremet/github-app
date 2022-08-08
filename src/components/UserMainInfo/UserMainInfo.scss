@@ -1,0 +1,10 @@
+.user-main-info{
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+
+    &__img{
+        max-width: 300px;
+        width: 100%;
+    }
+}
