@@ -2,6 +2,7 @@ export interface IUserRepo {
     readonly id: number
     readonly name: string
     readonly forks: number
+    readonly clone_url: string
 }
 
 export interface IUser {

@@ -39,6 +39,7 @@ export const UserId = () => {
                         name={repo.name}
                         forks={repo.forks}
                         stars={repo.id}
+                        clone_url={repo.clone_url}
                     />
                 ))}
             </ul>
